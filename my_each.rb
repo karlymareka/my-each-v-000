@@ -1,7 +1,7 @@
 array_numbers = [1,2,3,4]
 
 def my_each(array_numbers)
- yield(array_numbers)
+ yield
 end
 
 my_each do 
