@@ -7,4 +7,7 @@ def my_each(array_numbers)
   end 
 end
 
-my_each(array_numbers) do { puts array_numbers[i] }
+my_each(array_numbers) do 
+  i = 0 
+  while i < array_numbers.length
+    yield(i)
