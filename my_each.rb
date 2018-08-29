@@ -9,9 +9,5 @@ def my_each(array_numbers)
 end
 
 my_each(array_numbers) do 
-  i = 0 
-  while i < array_numbers.length
-    puts array_numbers[i]
-    i += 1 
-  end
+ 
 end 
