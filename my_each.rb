@@ -6,6 +6,7 @@ def my_each(array_numbers)
     yield(array_numbers[i])
     i += 1 
   end
+  array_numbers
 end
 
 my_each(array_numbers) do 
