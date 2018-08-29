@@ -10,4 +10,5 @@ end
 my_each(array_numbers) do 
   i = 0 
   while i < array_numbers.length
-    yield(i)
+    puts array_numbers[i]
+    i += 1 
