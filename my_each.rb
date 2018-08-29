@@ -9,6 +9,6 @@ def my_each(array_numbers)
   array_numbers
 end
 
-my_each(array_numbers[i]) do |word| 
+my_each(array) do |word| 
  puts word 
 end 
