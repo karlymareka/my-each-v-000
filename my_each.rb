@@ -9,4 +9,5 @@ my_each do
   while i < array_numbers.length
     puts array_numbers[i]
     i += 1 
-  end 
+  end
+end 
