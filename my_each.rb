@@ -10,5 +10,5 @@ def my_each(array_numbers)
 end
 
 my_each(array_numbers) do 
- puts 
+ puts array_numbers[i] 
 end 
