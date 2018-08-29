@@ -9,6 +9,6 @@ def my_each(array_numbers)
   array_numbers
 end
 
-my_each(array_numbers) do 
+my_each do 
  puts array_numbers[i] 
 end 
